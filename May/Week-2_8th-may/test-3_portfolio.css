@@ -1,0 +1,204 @@
+body{
+    margin: 0px;
+}
+
+ /* ---------------------navbar-------------------- */
+.oneh1{
+    margin-left: 15%;
+    font-size: xx-large;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: black;    
+    color: white;
+    justify-content: space-between;    
+    height: 60px;
+    position: sticky;
+    top: 0px;
+}
+.apps{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.apps a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* -----------------Home---------------- */
+
+.home{
+    background-image: url(/images/background.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+
+    color: white;
+}
+.info{
+
+    width: 50%;
+    padding-top: 170px;
+    font-size: 20px;
+    padding-left: 200px;
+}
+.name{
+    font-size: 75px;
+    margin: 0px;
+}
+span{
+    color: red;
+}
+
+/* about section */
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: rgb(20,20, 20);
+    color: white;
+    height: 100%;
+  }
+  .about .image img {
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 100px;
+    border-left: 35px solid white;
+  }
+  
+  .about .content {
+    padding: 20% 13%;
+  }
+  
+  .about .content .title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0%;
+  }
+  
+  .about .content .desc {
+    font-size: 20px;
+  }
+
+  /* skills Section */
+.skills{
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    display: inline-block;
+
+}
+.skillheading{
+    text-align: center;
+    color: white;
+
+}
+.skillsList{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    /* grid-row-gap: 5px; */
+    grid-column-gap: 2px;
+    margin-left: 50px;
+}
+.skillsList p {
+    border: 1px solid #ddd;
+    padding: 7% 1%;
+    border-bottom: 5px solid red;
+    background-color: rgb(20,20, 20);
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+  }
+
+/* contact sections */
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: rgb(20,20, 20);
+    color: white;
+
+  }
+
+  .contact .content {
+    padding: 10% 13%;
+    
+  }
+  
+  .contact .content .title {
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0%;
+  }
+  
+  .contact .content .form {
+    padding: 2% 0%;
+  }
+  
+  .contact .content .form .field {
+    padding: 2% 0%;
+  }
+  
+  .contact .content .form .title {
+    font-size: 25px;
+  }
+  .contact .content .form .input {
+    font-size: 15px;
+    width: 55%;
+    padding: 2% 2%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 2%;
+  }
+  
+  .contact .content .btn {
+    background-color: red;
+    color: #fff;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 700;
+    padding: 2% 10%;
+    margin-top: 3%;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* ---------footer--------- */
+  .footer {
+    width: 100%;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    padding: 1% 0;
+  }
+  
+  .footer .footer-title h2 {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  
+  .footer .social-sites .footer-icons a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+  }
+    
+  .footer .footer-icons a .fab {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .footer .social-sites p {
+    font-size: 15px;
+    padding: 10px 0px;
+    color: #fff;
+  }

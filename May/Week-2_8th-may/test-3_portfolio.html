@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio_test3</title>
+    <link rel="stylesheet" href="test-3_portfolio.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mulish:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+</head>
+<body>
+    <div class="main">
+        <!-- Navbar of Portfolio using flex -->
+        <nav>
+            <h1 class="oneh1">Port<span>folio</span></h1>
+        <div class="apps">
+            <a href="#Home">Home</a>
+            <a href="#About Me">About Me</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        </nav>
+
+        <!-- Home Section -->
+        <div class="home" id="Home">
+            <div class="info">
+                <p>Hey! My name is </p>
+                <p class="name">Arman <span>Ali</span></p>
+                <p>I'm a software developer</p>  
+            </div>
+        </div> 
+        <!-- about section using grid     -->
+        
+        <div class="about" id="About Me">
+
+            <div class="image">
+                <img src="https://kapdewala.in/wp-content/uploads/2021/04/mouse_pad_-300x300.jpg" alt="">
+            </div>   
+            <div class="content">
+                <p class="title">About <span>Me</span> </p>
+                <p class="desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not
+                only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus
+                PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>    
+        </div>    
+
+        <!-- skill Section  -->
+        <div class="skills" id="Skills">
+          <div class="skillheading"><h1>Skills</h1></div>
+          
+          <div class="skillsList">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JAVASCRIPT</p>
+            <p>BOOTSTRAP</p>
+          </div>
+        </div>
+
+        <!-- contact soction  -->
+
+        <div class="container contact" id="Contact">
+
+            <div class="content">
+              <p class="title">Get in touch with me <span>here!</span></p>
+              <form action="/action_page.php" class="form">
+                <div class="field">
+                  <label for="email" class="title">Your email id:</label><br />
+                  <input type="text" id="email" name="email" placeholder="email@gmail.com" class="input"/>
+                </div>
+                <div class="field">
+                  <label for="lname" class="title">Message for me:</label><br />
+                  <input type="text" id="msg" name="msg" placeholder="Hi! there" class="input" />
+                </div>
+    
+                <input type="submit" value="Submit" class="btn" />
+              </form>
+            </div>
+          </div>
+
+          <!-- footer section -->
+          <div class="footer" id="footer">
+            <div class="footer-title">
+                <h2>Arman <span>Ali</span></h2>
+                <div class="social-sites">
+                    <div class="footer-icons">
+                        <a href="#" class="ico">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="ico">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="ico">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <p>© <span id="year"></span>
+                            <script>
+                                var d = new Date();
+                                var n = d.getFullYear();
+                                document.getElementById("year").innerHTML = n;
+                            </script>
+                            copyright all right reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
