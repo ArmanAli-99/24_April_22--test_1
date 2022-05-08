@@ -33,12 +33,11 @@ nav{
 /* -----------------Home---------------- */
 
 .home{
-    background-image: url(/images/background.jpg);
+    background-image: url(images/background.jpg);
     height: 600px;
     width: 100%;
     background-position: center;
     background-size: contain;
-
     color: white;
 }
 .info{
