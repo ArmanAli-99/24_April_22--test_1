@@ -1,0 +1,27 @@
+:root{
+    /* --offcanvasWidth: 276px: */
+    --navbarheight: 56px;
+}
+
+.sidebar-nav{
+    width: 270px !important;
+}
+@media (min-width: 992px) {
+    body{
+        overflow: auto !important;
+    }
+    .sidebar-nav{
+        visibility: visible !important;
+        transform: none !important;
+        top: var(--navbarheight) !important;
+        
+    }
+    .offcanvas-backdrop.fade{
+        display: none;
+    }
+    main{
+        margin-left: 276px;
+        margin-top: 50px;
+    }
+    
+}
